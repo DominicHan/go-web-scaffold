@@ -13,3 +13,9 @@
 
 # idea
 .idea/
+.DS_Store/
+
+# Dependency management
+/EthWeb/vendor/*
+!/EthWeb/vendor/vendor.json
+config.json
