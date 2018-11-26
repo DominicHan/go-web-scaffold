@@ -1,0 +1,33 @@
+# test=>测试 pd=>正式
+#      db: go-web-scaffold
+#      host: ***.mysql.rds.aliyuncs.com
+#      port: 3306
+#      user: ***
+#      password: ***
+env: dev
+base:
+  name: go-web-scaffold
+  host: 0.0.0.0
+  port: 8005
+  logPath: /data/logs
+
+  dev:
+    mysql:
+      db: go-web-scaffold
+      host: 127.0.0.1
+      port: 3306
+      user: root
+      password: 1234
+    redis:
+      host: 127.0.0.1
+      port: 6379
+      db: 3
+      password: Fzz3O3N1v6eS
+    mq:
+      host: 127.0.0.1
+      queue: queue
+      vhost: /hqbdev
+      port: 5672
+      user: dev_queue
+      password: 12345678
+  pd:

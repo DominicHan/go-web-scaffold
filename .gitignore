@@ -16,6 +16,6 @@
 .DS_Store/
 
 # Dependency management
-/EthWeb/vendor/*
-!/EthWeb/vendor/vendor.json
+.vendor/
+!vendor/vendor.json
 config.json

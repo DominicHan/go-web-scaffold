@@ -2,8 +2,9 @@
 ## go语言web开发脚手架
 
 # 项目初始化
-## 1. go get github.com/kardianos/govendor
-## 2. 在$GOPATH/SRC下 git clone https://github.com/DominicHan/go-web-scaffold.git
-## 3. 保证$GOPATH/bin 在环境变量$PATH下
-## 4. 进入项目目录的vendor目录下
+## 1. 在$GOPATH/SRC下 git clone https://github.com/DominicHan/go-web-scaffold.git
+## 2. 保证$GOPATH/bin 在环境变量$PATH下
+## 3. 执行 go get -u -v github.com/kardianos/govendor
+## 4. cd go-web-scaffold/ ,ls查看, 保证有vendor目录
 ## 5. govendor sync -v 同步 项目依赖包
+## 6. 指定版本,添加第三方库 举例:govendor fetch -v github.com/gin-gonic/gin@v1.3.0 不指定版本,下载安装最新的就把包括@在内和后边去掉
