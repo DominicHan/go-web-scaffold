@@ -8,3 +8,9 @@
 ## 4. cd go-web-scaffold/ ,ls查看, 保证有vendor目录
 ## 5. govendor sync -v 同步 项目依赖包
 ## 6. 指定版本,添加第三方库 举例:govendor fetch -v github.com/gin-gonic/gin@v1.3.0 不指定版本,下载安装最新的就把包括@在内和后边去掉
+
+2018.11.26
+·项目按MVC模式进行改造
+·添加了项目整体配置文件
+·添加了mysql、rabbitmq、redis的配置
+·添加了一些demo
